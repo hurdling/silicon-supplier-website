@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silicon Supplier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #001f3f;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: #0074D9;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            background-color: #FF851B;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+        }
+        .benefits {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            background: white;
+            padding: 50px 20px;
+        }
+        .benefit {
+            flex: 1;
+            min-width: 250px;
+            margin: 10px;
+            padding: 20px;
+            background: #f8f8f8;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .contact {
+            text-align: center;
+            padding: 50px 20px;
+            background: #001f3f;
+            color: white;
+        }
+        .contact form input, .contact form textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact button {
+            background-color: #FF851B;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background: #001f3f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Silicon Supplier</div>
+    
+    <div class="hero">
+        <h1>Your Trusted Source for Microchips & Components</h1>
+        <p>Reliable. Fast. Verified. Get high-quality microchips and components for your business.</p>
+        <a href="#contact" class="cta-button">Request a Quote</a>
+    </div>
+    
+    <div class="benefits">
+        <div class="benefit">
+            <h3>Verified Components</h3>
+            <p>100% authentic & tested semiconductors.</p>
+        </div>
+        <div class="benefit">
+            <h3>Fast Sourcing</h3>
+            <p>We deliver hard-to-find chips, quickly.</p>
+        </div>
+        <div class="benefit">
+            <h3>Competitive Pricing</h3>
+            <p>Get the best market rates for bulk orders.</p>
+        </div>
+    </div>
+    
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below to request a quote.</p>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <input type="text" name="company" placeholder="Company Name" required><br>
+            <textarea name="message" placeholder="Your Requirements" rows="4" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+    <div class="footer">
+        &copy; 2024 Silicon Supplier | All Rights Reserved
+    </div>
+</body>
+</html>
